@@ -40,7 +40,7 @@ class Employee:
                 return f"{self.name} works on a contract of {self.hours} hours at {self.wages}/hour. Their total pay is {self.get_pay()}."
 
 
-# Billie works on a monthly salary of 4000.  Their total pay is 4000.
+# Billie works on a monthly salary of 4000.  Their total pay is 4000..
 billie = Employee("Billie", salary=4000)
 # Charlie works on a contract of 100 hours at 25/hour.  Their total pay is 2500.
 charlie = Employee("Charlie", wages=25, hours=100)
